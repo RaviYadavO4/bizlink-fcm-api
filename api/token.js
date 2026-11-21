@@ -7,6 +7,7 @@ module.exports = async (req, res) => {
       return res.status(400).json({ error: "channelName is required" });
     }
 
+    
     const appId = process.env.AGORA_APP_ID;
     const appCertificate = process.env.AGORA_APP_CERTIFICATE;
 
