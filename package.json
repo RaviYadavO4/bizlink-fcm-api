@@ -1,7 +1,8 @@
 {
-  "name": "bizlink-fcm-api",
+  "name": "bizlink-vercel-api",
   "version": "1.0.0",
   "dependencies": {
-    "firebase-admin": "^13.0.0"
+    "firebase-admin": "^13.0.0",
+    "agora-token": "^2.0.4"
   }
 }
